@@ -11,6 +11,8 @@ open class Animal{}
 class Cat: Animal(){}
 ```
 {% tag_round att 注意 %}
+注意
+{% endtag_round %}
 
 ## 基底クラスのコンストラクタ呼び出し
 「Person」クラスのプライマリコンストラクタでは「firstName」「lastName」の２つのプロパティが定義されています。
