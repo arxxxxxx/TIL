@@ -1,6 +1,3 @@
-## 参考
-https://qiita.com/tommy96/items/448c87fd6950ec2b6265
-
 ## その前に
 node,npm,yarnの確認
 ```sh
@@ -18,6 +15,7 @@ $yarn -v
 $brew install watchman
 ```
 ### watchman とは
+https://mag.osdn.jp/13/06/05/075200
 > 米Facebookによって開発されたファイルの変更監視ツール。
 > ビルド作業を高速化するために同社内で開発されたツールで、ビルドの効率化を行える。
 > 指定したディレクトリ下にあるファイルの変更をモニタリングする。
@@ -43,3 +41,6 @@ $yarn start
 ## iOS simulator をインストール
 - ブラウザに表示されたexpoの画面の「Run　on　iOS simulator」をクリック
 - Xcodeを開きiOS simulatorをインストール（Xcodeを開かないといつまでたってもダウンロードが完了しないため)
+
+## 参考
+https://qiita.com/tommy96/items/448c87fd6950ec2b6265
