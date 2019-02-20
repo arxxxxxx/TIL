@@ -1,4 +1,4 @@
-## その前に
+### その前に
 node,npm,yarnの確認
 ```sh
 $node -v
