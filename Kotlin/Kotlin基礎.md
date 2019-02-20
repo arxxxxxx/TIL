@@ -20,7 +20,7 @@ open class Hoge(val fuga: String,val piyo: String = ""){....}
 // 継承クラス。継承元のコンストラクタを指定
 class Hoge2(fuga: String,piyo: String = "",val age: Int) : Hoge (fuga,piyo){....}
 ```
-### 継承元がセカンドリコンストラクタだけの場合
+#### 継承元がセカンドリコンストラクタだけの場合
 「super」キーワードを使って基底クラスのコンストラクタを呼ぶ
 ```kt
 // プライマリコンストラクタのないクラス
