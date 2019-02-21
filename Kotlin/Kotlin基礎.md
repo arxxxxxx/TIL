@@ -34,6 +34,10 @@ class SecondB : Second {
 }
 ```
 
+## メソッドのオーバーライド
+メソッドをオーバーライドする場合は継承元の「fun」の前に「open」を書き
+継承したメソッドの「fun」の前に「override」を書く
+
 ## 参考
 Android Studioで始めるKotlin入門（5)
 https://www.atmarkit.co.jp/ait/articles/1804/24/news008.html
