@@ -4,7 +4,11 @@
 DB_HOST = mysql
 DB_PORT = docker-composeで指定されているポート番号
 ```
-以下はmysqlコンテナに入り調査する
+mysqlコンテナに入る
+```bash
+docker exec -it laradock_mysql_1 /bash/bin
+```
+DB_DATABASEはmysqlに入って確認する
 ```yml
 DB_DATABASE=default
 DB_USERNAME=default
