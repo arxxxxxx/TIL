@@ -20,9 +20,9 @@ mysql> SELECT user, host, plugin FROM mysql.user;
 +------------------+-----------+-----------------------+
 | default          | %         | caching_sha2_password |
 | root             | %         | caching_sha2_password |
-| mysql.infoschema | localhost | mysql_native_password |
-| mysql.session    | localhost | mysql_native_password |
-| mysql.sys        | localhost | mysql_native_password |
+| mysql.infoschema | localhost | caching_sha2_password |
+| mysql.session    | localhost | caching_sha2_password |
+| mysql.sys        | localhost | caching_sha2_password |
 | root             | localhost | caching_sha2_password |
 +------------------+-----------+-----------------------+
 6 rows in set (0.00 sec)
