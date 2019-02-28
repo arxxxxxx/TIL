@@ -1,6 +1,6 @@
 ## search.phpの2ページめはどこ？
-http://○○○/?s=testの場合2ページ目のurlは
-http://○○○/page/2/?s=testになる
+http://○○○/?s=test の場合2ページ目のurlは
+http://○○○/page/2/?s=test になる
 
 ## コード
 ```php
